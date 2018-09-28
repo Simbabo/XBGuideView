@@ -23,7 +23,7 @@
     [super viewDidAppear:animated];
     //因为内部XBGuideView是添加到keyWindows上面的,所有需要再控制器图层显示出来后再设置引导界面
     //直接加载更新引导,自动判断是否是第一次打开
-    [XBGuideView showGudieViewWith:@[@"guide_1",@"guide_2",@"guide_3"]];
+    [XBGuideView showGudieViewWith:@[@"guide_1",@"guide_2",@"guide_3"] iphone5ImageArrray:nil iphone6ImageArrray:nil iphone6pImageArrray:nil iphoneXImageArrray:nil];
 }
 
 @end
